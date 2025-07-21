@@ -1,0 +1,40 @@
+{
+  "name": "Sweet Dreams - Sleep Training Timer",
+  "short_name": "Sweet Dreams",
+  "description": "A sleep training timer app for parents with customizable intervals and persistent notifications",
+  "start_url": "/sweet-dreams/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007aff",
+  "orientation": "portrait",
+  "scope": "/sweet-dreams/",
+  "icons": [
+    {
+      "src": "/sweet-dreams/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/sweet-dreams/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/sweet-dreams/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "health", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/sweet-dreams/icons/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
