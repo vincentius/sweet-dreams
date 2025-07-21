@@ -1,8 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#7c4dff">
-  <circle cx="256" cy="180" r="120" opacity="0.3"/>
-  <path d="M256 80c-66.3 0-120 53.7-120 120s53.7 120 120 120 120-53.7 120-120S322.3 80 256 80zm0 200c-44.2 0-80-35.8-80-80s35.8-80 80-80 80 35.8 80 80-35.8 80-80 80z"/>
-  <path d="M256 320c-88.4 0-160 71.6-160 160v32h320v-32c0-88.4-71.6-160-160-160zm120 152H136v-12c0-66.3 53.7-120 120-120s120 53.7 120 120v12z"/>
-  <circle cx="200" cy="180" r="20"/>
-  <circle cx="312" cy="180" r="20"/>
-  <path d="M256 220c-22.1 0-40 17.9-40 40h80c0-22.1-17.9-40-40-40z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="#1a1a2e"/>
+  
+  <!-- Moon -->
+  <circle cx="220" cy="200" r="80" fill="#ffd700" opacity="0.9"/>
+  <circle cx="240" cy="180" r="80" fill="#1a1a2e"/>
+  
+  <!-- Stars -->
+  <circle cx="350" cy="150" r="4" fill="#ffd700"/>
+  <circle cx="380" cy="180" r="3" fill="#ffd700"/>
+  <circle cx="340" cy="120" r="2" fill="#ffd700"/>
+  <circle cx="400" cy="140" r="2" fill="#ffd700"/>
+  
+  <!-- Baby silhouette -->
+  <circle cx="280" cy="340" r="35" fill="#4a90e2" opacity="0.8"/>
+  <ellipse cx="280" cy="380" rx="45" ry="60" fill="#4a90e2" opacity="0.8"/>
+  
+  <!-- Zzz sleep symbols -->
+  <text x="320" y="320" fill="#ffd700" font-family="Arial" font-size="24" opacity="0.7">Z</text>
+  <text x="335" y="300" fill="#ffd700" font-family="Arial" font-size="20" opacity="0.5">z</text>
+  <text x="345" y="285" fill="#ffd700" font-family="Arial" font-size="16" opacity="0.3">z</text>
 </svg>
