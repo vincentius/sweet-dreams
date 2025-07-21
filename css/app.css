@@ -11,6 +11,30 @@
 /* Ensure main view is always visible */
 .view-main {
   visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* Ensure navbar is always visible */
+.view-main .navbar {
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* Splash modal styling */
+.block-modal-splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: none;
+}
+
+.block-modal-inner {
+  box-shadow: var(--f7-card-box-shadow);
 }
 
 /* Dark mode support */
